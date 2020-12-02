@@ -1,7 +1,19 @@
-/* @background:#F5C7A3; */
+/* html{
+  background: url(./assets/ricky-morty6.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
 
 body{
-    /* background-color: #F5C7A3 ; */
+  /* background: url(./assets/fondo1-rickyMorty-unsplash.jpg) no-repeat center center fixed; */
+  /* background: url(./assets/ricky-morty6.jpg) no-repeat center center fixed; */
+  background: url(./assets/ricky-morty8.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
    font-family: Arial, Helvetica, sans-serif;
 } 
 
@@ -10,26 +22,32 @@ body{
     /* justify-content: space-between; */
     justify-content: space-around;
     font-size: larger;
-    flex-wrap: wrap;
-    column-count: 5;
-    gap: 30px;
+    flex-wrap: wrap; 
+    column-count: 3;
+    gap: 30px; 
+    margin: 100px;
+    margin-top: 240px;
 }
 .container {
    display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-    width: 300px;
+    width: 290px;
     height: 480px;
     margin: auto;
      border: 0.5px solid lightgrey; 
     border-radius: 30px;
     padding: 1em;
-    box-shadow: 10px 5px 7px #bbc1cc;
+    /* box-shadow: 10px 5px 7px #bbc1cc; */
+    box-shadow: 10px 5px 7px #9eecec;
     color:  #120902;
-  
-    /* font-weight: 600; */
-    
+    background-color: white;
+    opacity: 1;
+  }
+  .container:hover {
+    cursor: pointer;
+    transform: scale(1.1);
   }
 img{
     border-radius: 10px;
@@ -39,13 +57,6 @@ img{
     text-transform: uppercase;
     font-weight: 600;
 }
-/* .flexClass{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-ar;
- 
-}  */
 
 .aliveAndgender{
     display: flex;
@@ -54,7 +65,6 @@ img{
     font-weight: 200;
     width: 70px;
     height: 32px;
-  
     color: thistle;
     /* border: 4px solid pink; */
     border: 0.5px solid lightgrey;
@@ -66,5 +76,30 @@ img{
 /* .shadow {
     text-shadow: #a59f8f 1px 0 10px;
   } */
-
- 
+  a {
+    color: whitesmoke;
+    background-color:#E89E53;
+    /* border: 0.5px solid lightgrey; */
+    border-radius: 100px;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+  
+  a:hover {
+    background-color: #1F7098;
+  }
+  
+ button{
+   height: 50px;
+   width: 180px;
+   /* border: o.5px solid rgb(6, 6, 53); */
+   border: 0;
+  border-radius: 15px;
+  color: thistle;
+  font-size: 15px;
+  /* text-decoration: none; */
+  text-align: center;
+  cursor: pointer;
+  background-size: cover;
+  background: url(./assets/fondo1-rickyMorty-unsplash.jpg)
+ }
